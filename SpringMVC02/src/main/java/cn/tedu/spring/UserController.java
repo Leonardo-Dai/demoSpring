@@ -9,11 +9,14 @@ import javax.websocket.Session;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 @Controller
 //有了这个注解,可以通过modelMap封装session 的数据,括号里的表示哪些数据是session数据
 //@SessionAttributes("username")
+@RequestMapping("user")
 public class UserController {
 	
 	@RequestMapping("reg.do")
@@ -61,7 +64,8 @@ public class UserController {
 		return "user";//返回值可以理解为即将要创建的html文件的名称(返回值就是视图名!!)
 	}
 	
-	@RequestMapping("handle_reg.do")
+	
+	@RequestMapping(path="handle_reg.do")
 	public String handleReg(User user,ModelMap model){
 		System.out.println("UserController.handleReg()");
 		System.out.println(user);
@@ -82,9 +86,11 @@ public class UserController {
 			//return "login";//err  如果使用转发,则浏览器地址上的后缀还是handle_reg.do没变,导致刷新的时候还是会再提交之前注册的信息
 		}
 	}
-	
-	@RequestMapping("handle_login.do")
-	public String handleLogin(ModelMap modelmap,String username,String password,HttpSession session){
+	//method=RequestMethod.POST用来限制请求方式,如果请求方式不匹配,出现405,属性值是数组
+	//@RequestParam(name="username")代表这个值是客户端提交的名为username的参数绑定到username变量,可以用于解决客户端提交的请求参数
+	//与控制器中处理请求的参数名不一致的问题
+	@RequestMapping(path="handle_login.do",method=RequestMethod.POST)
+	public String handleLogin(ModelMap modelmap,@RequestParam(name="username") String username,String password,HttpSession session){
 		System.out.println("UserController.handleLogin()");
 		System.out.println(username);
 		System.out.println(password);

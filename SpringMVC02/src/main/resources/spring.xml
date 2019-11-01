@@ -51,12 +51,12 @@
 			<!-- 如果需要快速的配置大量的请求路径,使用*,所有配置,只能配置一个'/',不能配置多个文件夹层级 -->
 			<!-- <mvc:mapping path="/*"/> -->
 			<!-- 拦截路径 -->
-			<mvc:mapping path="/*"/>
+			<mvc:mapping path="/user/*"/>
 			<!-- 排除路径:白名单,相当于拦截器没有配置拦截这个路径 -->
-			<mvc:exclude-mapping path="/login.do"/>
-			<mvc:exclude-mapping path="/handle_login.do"/>
-			<mvc:exclude-mapping path="/reg.do"/>
-			<mvc:exclude-mapping path="/handle_reg.do"/>
+			<mvc:exclude-mapping path="/user/login.do"/>
+			<mvc:exclude-mapping path="/user/handle_login.do"/>
+			<mvc:exclude-mapping path="/user/reg.do"/>
+			<mvc:exclude-mapping path="/user/handle_reg.do"/> 
 			<!-- 拦截器类 -->
 			<bean class="cn.tedu.spring.LoginInterceptor"/>
 		</mvc:interceptor>

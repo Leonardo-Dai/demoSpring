@@ -22,7 +22,7 @@ public class LoginInterceptor implements HandlerInterceptor {
 		//重定向到登陆页
 		if(request.getSession().getAttribute("username")==null){
 			//重定向到登陆页
-			response.sendRedirect(request.getContextPath()+"/login.do");
+			response.sendRedirect(request.getContextPath()+"/user/login.do");
 //			response.sendRedirect("login.do");//两个都可以
 			//入伙没登录,则阻止运行
 			return false;
