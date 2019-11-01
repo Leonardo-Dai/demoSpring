@@ -1,0 +1,88 @@
+.dwl_blockbg{
+    position: relative;
+    left: 210px;
+    color: #56707f;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.dwl_blockbg a{
+    color: #8f98a0;
+}
+a{
+    text-decoration: none;
+}
+.dwl_game_name{
+    position: relative;
+    font-size: 30px;
+    color: #d6d7d8;
+    overflow: hidden;
+    left: 210px;
+}
+.dwl_form_area{
+    float: left;
+    width: 212px;
+}
+
+.dwl_form_area input[type=text]{
+    background-color: rgba( 0, 0, 0, 0.2 );
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px #45556c;
+    margin: 10px 0;
+    width: 212px;
+    padding: 2px 4px 3px 4px;
+    height: 18px;
+    max-width: 300px;
+}
+.dwl_country_select{
+    display: inline-block;
+    margin-top: 10px;
+}
+.dwl_blueish{
+    width: 223px;
+    margin-top: 3px;
+    padding: 2px 4px 3px 4px;
+    background-color: rgba( 255, 255, 255, 0.7 );
+    color: #000;
+    border: 1px solid rgba( 255, 255, 255, 0.1 );
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px #000;
+}
+.dwl_form_notes{
+    float: left;
+    margin-left: 21px;
+    width: 346px;
+    padding-top: 6px;
+}
+.dwl_rule{
+    border-top: 1px solid #364c59;
+    margin: 15px 0px;
+}
+.dwl_btnv6_blue_hoverfade{
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+    float: left;
+    margin-top: 30px;
+}
+#privacy_link{
+    float: right;
+    padding-top: 40px;
+
+}
+#privacy_link a{
+    text-decoration: none;
+    color: #ffffff;
+
+}

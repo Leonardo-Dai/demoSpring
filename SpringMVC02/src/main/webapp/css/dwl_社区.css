@@ -1,0 +1,524 @@
+@CHARSET "UTF-8";
+.dwl-community_home_header{
+    padding: 20px 9px 0 20px;
+    position: relative;
+    width: 948px;
+}
+body{
+    color:white;
+}
+.dwl-community_home_header h4{
+    color: #9099a1;
+}
+.dwl_community_home_app_shortcuts {
+
+    margin: 0px;
+}
+.dwl_community_home_app_shortcuts_left{
+    font-size: 12px;
+    color: #c6d4df;
+
+}
+.dwl_community_home_app_shortcuts .col-xs-8{
+    padding: 10px 10px 0 10px;
+}
+.dwl_community_activity_signin_buttons{
+    height: 32px;
+    padding-top: 16px;
+}
+.dwl_community_activity_signin_buttons .btn-default{
+    float: left;
+    border-radius: 2px;
+    border: none;
+    /*padding: 1px;*/
+    display: inline-block;
+    /*cursor: pointer;*/
+    text-decoration: none !important;
+    color: #D2E885 !important;
+    background: #a4d007;
+    background: -webkit-linear-gradient( top, #a4d007 5%, #536904 95%);
+    background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+}
+.dwl_community_activity_or{
+    float: left;
+    line-height: 32px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.dwl_community_home_join_steam{
+    padding-top: 10px;
+}
+.dwl_community_home_app_shortcuts_right >div{
+    font-size: 11px;
+    color: #8f98a0;
+    padding-bottom: 10px;
+}.dwl_appHubShortcut > a{
+     float: left;
+     display: inline-block;
+     margin-right: 3px;
+ }
+
+.dwl_appHubShortcut_Title{
+    color: white;
+    font-size: 11px;
+}
+.dwl_community_home_app_shortcuts > .col-xs-8 {
+    background: rgba(0, 0, 0, 0.4);
+    height: 210px;
+}
+.dwl_new_items_num {
+    font-size: 12px;
+    line-height: 15px;
+    color: #2f89bc;
+}
+.dwl_appHubShortcutText >a:hover{
+    color: white;
+}
+.dwl_community_home_app_shortcuts > .col-xs-4{
+    background: rgba(0, 0, 0, 0.4);
+    border-left: 5px solid #1b2838 ;
+    padding-left: 0;
+}
+.dwl_community_home_shortcut_content{
+    padding: 10px;
+}
+
+.dwl_community_home_search_title{
+    font-size: 11px;
+    color: #8f98a0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.dwl_input-group{
+    position: relative;
+    height: 32px;
+    margin-top: 5px;
+    background-color: #2a3f5a;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0 #45556c;
+    color: #fff;
+    padding: 5px;
+}
+.dwl_community_home_search_app_input{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    position: absolute;
+    box-shadow: none;
+    top: 6px;
+    left: 6px;
+    width: 90%;
+    font-style: italic;
+    background-color: #2a3f5a;
+}
+.dwl_community_home_search_apps_image{
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    width: 23px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #2f3e55;
+}
+.dwl_community_home_search_divider{
+    width: 100%;
+    height: 2px;
+    border-top:1px solid #000000;
+    background-color: #333333;
+    margin: 35px 0;
+}
+.dwl_community_home_tabs{
+    padding: 20px 9px 0 20px;
+    position: relative;
+    width: 948px;
+}
+.dwl_community_home_tabs li a{
+    color: #dadada;
+    padding: 1px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+}
+.nav-tabs > li > a:hover{
+    padding: 1px;
+    text-decoration: none;
+    border: none;
+    background: rgba(103,193,245,1);
+}
+.nav-tabs>li:hover{
+    background: rgba(103,193,245,1);
+}
+.nav-tabs > li {
+    display: inline-block;
+    height: 28px;
+    line-height: 31px;
+    padding: 0px 10px;
+    margin-right: 2px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.nav-tabs > li.active{
+    background-color:#171a21;
+    border-radius:3px;
+    display: inline-block;
+    border-top: 1px solid #4e8ddb;
+    border-right: 1px solid #4e8ddb;
+    border-left: 1px solid #4e8ddb;
+
+}
+
+.nav-tabs > li.active >a{
+    background-color: #171a21;
+    border: none;
+    color: #dadada;
+    border-radius:3px ;
+}
+.dwl_community_home_tabs .nav-tabs{
+    border-bottom: 5px solid #0d121a;
+}
+.dwl_community_home_tabs_ul>li.active>a.active{
+    background-color:#171a21;
+    border: none;
+    border-radius:3px ;
+}
+.nav-tabs > li.active > a:VISITED {
+    background-color:#171a21;
+    border: none;
+    border-radius:3px ;
+    color: #dadada;
+    border: 1px solid #171a21;
+}
+.dwl_community_home_sort_options{
+    max-width: 948px;
+    padding: 0 1% 20px 1%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.dwl_community_home_sort_buttons {
+    float: right;
+    color: #636363;
+}
+.dwl_btn_darkblue_white_innerfade {
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #A4D7F5 !important;
+    background: linear-gradient( to bottom, rgba(47,137,188,1) 5%, rgba(23,67,92,1) 95%);
+}
+.dwl_btn_darkblue_white_innerfade:hover {
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.75) inset, -2px -2px 5px rgba(150,150,150,1) inset;
+}
+.dwl_btn_darkblue_white_innerfade >span {
+    border-radius: 2px;
+    display: block;
+    background: linear-gradient(to bottom, rgba(33, 101, 138, 1) 5%, rgba(23, 67, 92, 1) 95%);
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.dwl_btn_grey_grey_outer_bevel{
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #ebebeb !important;
+    background: #000;
+}
+
+.dwl_btn_grey_grey_outer_bevel:not(:hover) > span {
+    box-shadow: inset 0 1px 1px #434343;
+}
+.dwl_btn_grey_grey_outer_bevel>span {
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+    background: linear-gradient( to bottom, #2B2B2B 5%, #202020 95%);
+}
+.dwl_apphub_Content {
+    position: relative;
+    max-width: 948px;
+    padding: 0 1%;
+    margin: 0 auto;
+    text-align: left;
+}
+.dwl_apphub_Card_1{
+    width: 470px;
+    height: 345px;
+    text-align: left;
+    background-color: #0d131b;
+    border: 1px solid transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.dwl_apphub_CardContentType{
+    width: auto;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Motiva Sans Light", Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    z-index: 2;
+}
+.dwl_apphub_CardContentGuideTitle{
+    background-color: #272f38;
+    border: 1px solid transparent;
+    padding: 12px 9px 12px 9px;
+    margin: 0px 9px;
+    overflow: hidden;
+    color: white;
+    font-size: 14px;
+    width: 447px;
+    height: 90px;
+
+}
+.dwl_apphub_CardContentGuideImage{
+    float: left;
+    width: 64px;
+    height: 64px;
+    padding-right: 10px;
+}
+.dwl_apphub_CardContentGuideDesc {
+    padding: 12px 9px;
+    overflow: hidden;
+    height: 69px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8c8b8a;
+}
+
+.dwl_hot>i{
+    color: #8c8b8a;
+}
+.dwl_hot{
+    position: absolute;
+    bottom: 47px;
+    left: 10px;
+    height: 40px;
+    padding-top: 5px;
+    font-family: Motiva Sans, Arial, Helvetica, sans-serif;
+}
+.dwl_apphub_CardContentAuthorBlock{
+    height: 45px;
+    padding-top: 6px;
+    padding-left: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+    right: 0;
+    border-top: 1px solid #272f38;
+}
+.dwl_apphub_CardContentAppName a{
+    padding-top: 7px;
+    font-size: 13px;
+    font-family: Motiva Sans, Arial, Helvetica, sans-serif;
+    color: #636363;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dwl_apphub_Card_yirutexiao{
+    cursor: pointer;
+}
+.dwl_apphub_Card_yirutexiao:hover{
+    border: 1px solid #4e8ddb;
+}
+.dwl_apphub_Card_2{
+    width: 312px;
+    height: 297px;
+    text-align: left;
+    background-color: #0d131b;
+    border: 1px solid transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.dwl_apphub_CardContentGuideTitle_small{
+    background-color: #272f38;
+    border: 1px solid transparent;
+    padding: 12px 9px 12px 9px;
+    margin: 0px 9px;
+    overflow: hidden;
+    color: white;
+    font-size: 14px;
+    width: 290px;
+    height: 90px;
+}
+.dwl_apphub_CardContentGuideDesc{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.dwl_apphub_Card_3{
+    width: 470px;
+    height: 445px;
+    text-align: left;
+    background-color: #0d131b;
+    border: 1px solid transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.dwl_apphub_CardContentPlayVideoIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -27px;
+    margin-left: -40px;
+    z-index: 2;
+}
+.dwl_apphub_CardContentPreviewImage{
+    width: 455px;
+    height: auto;
+    margin-top: -40px;
+    margin-left: 7px;
+    overflow:hidden ;
+}
+.dwl_apphub_CardContentMain{
+    overflow: hidden;
+}
+.dwl_apphub_CardMetaData {
+    position: absolute;
+    bottom: 47px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    padding-top: 5px;
+    font-family: Motiva Sans, Arial, Helvetica, sans-serif;
+}
+.dwl_apphub_CardCommentCount {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 24px;
+    padding-right: 5px;
+    float: right;
+}
+.dwl_apphub_CardRating{
+    padding-left: 18px;
+    color: #7cc5fb;
+    margin-left: 5px;
+    min-width: 79px;
+    height: 13px;
+    background-repeat: no-repeat;
+}
+.dwl_apphub_CardContentTitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #636363;
+    font-size: 12px;
+    padding: 7px;
+}
+.dwl_apphub_CardContentAuthorBlock_tall{
+    height: 45px;
+    padding-top: 6px;
+    padding-left: 5px;
+    position: absolute;
+    top:40px;
+    left: 6px;
+    right: 0;
+    border-top: 1px solid #272f38;
+}
+.dwl_apphub_CardContentAuthorBlock_tall .dwl_apphub_CardContentAppName{
+    font-size: 14px;
+}
+.dwl_apphub_Card_4{
+    width: 946px;
+    height: 345px;
+    text-align: left;
+    background-color: #0d131b;
+    border: 1px solid transparent;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.dwl_apphub_UserReviewCardContent{
+    padding: 10px;
+}
+.dwl_found_helpful{
+    font-size: 12px;
+    color: #636363;
+    margin: 0 0 14px 0;
+}
+.dwl_vote_header{
+    margin-bottom: 13px;
+}
+.dwl_appSmallLogo{
+    float: left;
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+.dwl_reviewInfo{
+    float: left;
+    width: 300px;
+}
+.dwl_thumb{
+    float: left;
+    margin-right: 10px;
+}
+.dwl_title{
+    font-size: 16px;
+    color: #d6d7d8;
+    font-family: 'Motiva Sans', arial, tahoma;
+    padding: 5px 0 0 0;
+}
+.dwl_hours{
+    font-size: 12px;
+    color: #d6d7d8;
+}
+.dwl_apphub_CardTextContent{
+    line-height: 22px;
+    font-size: 14px;
+    color: #8c8b8a;
+    font-family: 'Motiva Sans', arial, tahoma;
+}
+.dwl_date_posted{
+    font-size: 11px;
+    color: #a0a08b;
+}
+.dwl_apphub_CardTextContent{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.dwl_vote_header{
+    height: 77px;
+}
+.dwl_apphub_CardContentAuthorBlock_max{
+    height: 45px;
+    padding-top: 6px;
+    padding-left: 5px;
+    position: relative;
+    top: 70px;
+    left: -8px;
+    border-top: 1px solid #272f38;
+    width: 945px;
+}
+.dwl_apphub_CardContentAppName{
+    padding-top: 7px;
+    font-size: 13px;
+    font-family: Motiva Sans, Arial, Helvetica, sans-serif;
+    color: #636363;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+.game-section-1{
+    width: 940px;
+    height: 46px;
+    margin: 0 auto;
+}
+.game-section-1 span{
+    font-size: 30px;
+    color: white;
+}
+.game-col-2{
+    padding-top: 8px;
+}
+.game-btn_blue{
+    float: right;
+    top: 10px;
+}
+.game-btn_blue span{
+    text-align: center;
+    width: 92px;
+    height: 32px;
+    float: right;
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+}
+/*预览部分*/
+.game-yu{
+    height:440px;
+    width: 940px;
+    margin: 0 auto;
+}
+.game-yu-left{
+    width: 616px;
+    height: 414px;
+    padding: 0;
+}
+.game-yu-right{
+    width: 324px;
+    height: 416px;
+    padding: 0;
+}
+/*预览部分 右边*/
+.game-glance{
+    padding: 0;
+}
+.game-header-img{
+    margin-bottom: 7px;
+}
+.game-header-img>img{
+    width: 324px;
+    height: 151px;
+    -webkit-user-drag: none;
+    border: none;
+}
+.game_description_snippet{
+    width: 324px;
+    height: 108px;
+    padding-left: 1px;
+    max-height: 111px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 18px;
+    padding-right: 16px;
+}
+.game_ctn_left{
+    width: 324px;
+    height: 86px;
+}
+.game_user{
+    font-size: 12px;
+    color: #556772;
+    margin-top: 10px;
+}
+.game_user_down{
+    width: 324px;
+    height: 16px;
+}
+.game_user_down1{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+.game_user_down2{
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.game-glance_tags{
+    width:324px;
+    height: 22px;
+}
+.game-app_tag{
+    display: inline-block;
+    line-height: 19px;
+    padding: 0 7px;
+    color: #67c1f5;
+    background-color: rgba( 103, 193, 245, 0.2 );
+    box-shadow: none;
+    margin-right: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*详细页面内容*/
+.game-bigimg{
+    overflow: hidden;
+    position: relative;
+    border:  2px solid #2a6496;
+    width: 600px;
+    height: 337px;
+
+}
+.game-highlight_strip{
+    margin-top: 4px;
+    position: relative;
+    height: 69px;
+    margin-bottom: 4px;
+    z-index: 40;
+    width: 600px;
+    height: 69px;
+}
+.game-highlight_strip-1{
+    float: left;
+    height: 65px;
+    width: 116px;
+    cursor: pointer;
+    text-align: center;
+    margin: 2px;
+    background-color: #000000;
+    position: relative;
+}
+.game-highlight_strip-1 img{
+    width: 116px;
+    height: 65px;
+    border:  2px solid #2a6496;
+}
+.game-context{
+    line-height: 1.5em;
+    font-size: 14px;
+    margin-top: 30px;
+    overflow: hidden;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.game-context h2{
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+}

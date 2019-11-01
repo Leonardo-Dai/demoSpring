@@ -1,0 +1,399 @@
+@CHARSET "UTF-8";
+
+.market_header_bg{
+	background-color: #46602a;
+	width:100%;
+	height:121px;
+}
+.market_header_text{
+    margin-left: 175px;
+	display:block;
+	width:600px;
+	text-align:left;
+	padding:20px 10px 0px 270px;
+}
+.market_title_text{
+	font-family:"Motiva Sans", Sans-serif;
+	font-weight: 300px;
+	font-size:34px;
+	color:#ffffff;
+	
+}
+
+.market_subtitle_text{
+	font-size:14px;
+	color:#9dc473;
+}
+
+.market_tab_well_tabs{
+	background:rgba(0, 0, 0, 0.4);
+	
+}
+
+#myMarketTabs{
+	margin-top:30px;
+	padding-bottom: 128px;
+}
+
+#market_table_header > li > a:hover,
+#market_table_header > li > a:focus{
+	background:rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(75, 103, 45, 1), rgba(108, 149, 65, 1)) repeat scroll 0 0;
+	color: #ffffff;
+	
+}
+
+
+
+#market_table_header > li.active >a{
+	background:rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(75, 103, 45, 1), rgba(108, 149, 65, 1)) repeat scroll 0 0;
+	color: #ffffff;
+}
+
+#market_table_header >li >a{
+	background:rgba(0, 0, 0, 0);
+	border-radius: 0px;
+	color: #8F98A0;
+}
+
+
+
+#sale_of_goods{
+	 margin-left:580px; 
+	
+	
+}
+
+#mainContents{
+	color: #8F98A0;
+}
+
+.market_listing_table{
+	margin-bottom:1em;
+	margin-top: 1em;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding:15px 11px;
+	
+	
+}
+
+.market_listing_price_listings_block{
+	background-color:rgba(0, 0, 0, 0.2)
+	
+}
+.market_image{
+	float: left;
+    width: 62px;
+    height: 62px;
+    margin: 5px;
+    border: 1px solid #3A3A3A;
+    background-color: #333333;
+    border-color: #D2D2D2
+	
+}
+.market_listing_item_name_block{
+	vertical-align: top;
+    margin-top: 21px;
+    line-height: 16px;
+    padding-left: 7px;
+    
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	
+}
+.market_listing_item_name{
+	color: #D2D2D2;
+	font-weight: bold;
+}
+
+.market_table_value{
+	font-size: 85.7%;
+    line-height: 1.25em;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.number{
+	color: rgb(130, 130, 130);
+	font-size: 14px;
+	
+	padding-top: 20px;
+	
+	
+}
+
+#market_table_tag{
+	background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 8px 0 10px;
+    height: 2.25em;
+    vertical-align: middle;
+    line-height: 2.25em;
+	
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+#market_table_content{
+	background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 8px 0 10px;
+    vertical-align: middle;
+    line-height: 2.25em;
+    border: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+#market_table_content:hover{
+	
+	
+}
+
+.sal{
+	
+	color: white;
+}
+
+#row_change{
+	margin:-10px -30px;
+	
+}
+
+#market_table_tag2{
+	text-align: center;
+}
+
+.text_color{
+	color: rgb(130, 130, 130);
+	text-align:center;
+	margin-top: 10px;
+	
+}
+
+#content > a:hover{
+	border: 1px solid #324965;
+	
+}
+#sideBar{
+	width: 992px;
+	margin-top:50px;
+}
+
+.market_search_sidebar_contents{
+	width: 330px;
+    padding: 12px 15px 15px 15px;
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+
+}
+
+.escrow_description_link{
+	font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.a_color,
+.a_color:hover{
+	color:white;
+	text-decoration: none;
+	
+}
+.a_color_1,
+.a_color_1:hover{
+	color: #8F98A0;
+	text-decoration: underline;
+}
+
+.market_search_sidebar_section_tip_small{
+	margin-bottom: 5px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #4582A5;
+}
+
+.market_search_box_container{
+	position: relative;
+    margin-top: 10px;
+}
+
+#market_search{
+	margin: 0;
+    padding: 0;
+}
+
+#findItemsSearchBox{
+	width: 300px;
+    height: 20px;
+    border-radius: 0px;
+    color: #fff;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    padding: 2px 0 2px 4px;
+    background-color: #324965;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #182636 #45566A #45566A #182636;
+}
+
+#market_search_advanced_show{
+	width: 300px;
+    margin-top: 10px;
+}
+
+.market_search_advanced_button{
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(49, 54, 58, 1), rgba(43, 46, 52, 1)) repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom, #3a4043 0%, #25282d 100%);
+    border-image-slice: 1;
+    padding: 2px 4px 2px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    line-height: 24px;
+    cursor: pointer;
+	
+}
+
+.market_search_advanced_button:hover {
+    background: #324965;
+}
+
+.market_listing_item_name_block_number{
+	margin-top: 30px;
+	
+}
+
+.market_search_game_button_group{
+	margin-top: 20px;
+	
+}
+
+.game_button{
+	display: inline-block;
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 10px;
+    color: #ebebeb;
+   
+}
+
+.game_button_contents{
+	
+	float: left;
+    height: 39px;
+    line-height: 34px;
+    width: 300px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    position: relative;
+}
+
+.game_button > span{
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(49, 54, 58, 1), rgba(43, 46, 52, 1)) repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom, #3a4043 0%, #25282d 100%);
+    border-image-slice: 1;
+    padding: 2px;
+}
+
+.game_button > span:hover{
+	background: #324965;
+	color: white;
+}
+	
+
+.game_button_game_icon > img{
+	position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.game_button_game_name{
+	display: inline-block;
+    padding-left: 42px;
+    max-width: 195px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.market_listing_table_showmore{
+	line-height: 2em;
+    min-height: 2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnv6_blue_hoverfade{
+	width: 100%;
+	border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+}
+
+.btnv6_blue_hoverfade >span{
+	border-radius: 2px;
+    display: block;
+    background: transparent;
+}
+.btn_medium > span{
+	padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.market_listing_table_showmore>a:hover{
+	text-decoration: none !important;
+    color: #fff !important;
+    background: #417a9b;
+    background: -webkit-linear-gradient( 150deg, #417a9b 5%,#67c1f5 95%);
+    background: linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%);
+}
+
+.market_show_more_games{
+	margin-top: 10px;
+    text-align: center
+}
+
+.btnv6_grey_black{
+	border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #66c0f4 !important;
+    background: #212c3d;
+}
+
+.market_show_more_games >a:hover{
+	text-decoration: none !important;
+    color: #fff !important;
+    background: #417a9b;
+    background: -webkit-linear-gradient( 150deg, #417a9b 5%,#67c1f5 95%);
+    background: linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%);
+}
+
+.moreInfo{
+	margin-top: 2em;
+	
+}
+
+
+
+

@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+*{
+    margin: 0;
+}
+
+body{
+    color: #c6d4df;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.dwl_community_home_body{
+    padding: 20px 9px 0 20px;
+    position: relative;
+    width: 948px;
+}
+.dwl_page_content{
+    width: 940px;
+    margin: 0 auto;
+}
+.dwl_card_lolor{
+    background-color: #171a21;
+}
+.dwl_loginbox_content> h2{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+.dwl_login_row{
+    margin-bottom: 18px;
+}
+.dwl_text_input{
+    background-color: rgba( 0, 0, 0, 0.2 );
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px #45556c;
+    width: 500px;
+    padding: 5px;
+    margin: 4px 0;
+    max-width: calc( 100% - 12px );
+}
+.dwl_btn_ctn{
+    height: 33px;
+}
+.dwl_btnv6_blue_hoverfade {
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #67c1f5 !important;
+    background: rgba(103, 193, 245, 0.2);
+}
+.dwl_btnv6_blue_hoverfade span{
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 2px;
+    display: block;
+    background: transparent;
+}
+.dwl_btnv6_blue_hoverfade:hover{
+    background-color: #00ccff;
+}
+.dwl_btnv6_blue_hoverfade:hover span{
+    color: white;
+}
+.dwl_loginbox_lift{
+    border-right: 1px solid rgba(103, 193, 245, 0.2);
+}
+.dwl_btnv6_blue_hoverfade_join{
+    position: relative;
+    top:83px;
+}
+.dwl_card_lolor{
+    padding: 15px;
+}
+.dwl_rightcol h2{
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+}

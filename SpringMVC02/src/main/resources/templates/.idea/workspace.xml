@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56ec060a-08de-4f37-9538-d34c414fe4e0" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webweb" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SHarsUC1iErlA8SQ9wjJEg70We" />
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\webweb\css" />
+      <recent name="G:\webweb\steam" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\webweb\images" />
+      <recent name="G:\webweb\css" />
+      <recent name="G:\webweb\steam" />
+      <recent name="G:\webweb\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56ec060a-08de-4f37-9538-d34c414fe4e0" name="Default" comment="" />
+      <created>1571138117206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571138117206</updated>
+      <workItem from="1571223181796" duration="13282000" />
+      <workItem from="1571272364353" duration="3011000" />
+      <workItem from="1571310093105" duration="2649000" />
+      <workItem from="1571363244124" duration="811000" />
+      <workItem from="1571365077571" duration="58000" />
+      <workItem from="1571473067835" duration="5374000" />
+      <workItem from="1571499639851" duration="3431000" />
+      <workItem from="1571535154652" duration="8196000" />
+      <workItem from="1571552244199" duration="8116000" />
+      <workItem from="1571571150432" duration="4970000" />
+      <workItem from="1571619630027" duration="3953000" />
+      <workItem from="1571655991024" duration="4110000" />
+      <workItem from="1571660788670" duration="314000" />
+      <workItem from="1571705443799" duration="7496000" />
+      <workItem from="1571724583815" duration="11025000" />
+      <workItem from="1571791676855" duration="8717000" />
+      <workItem from="1571880391146" duration="6397000" />
+      <workItem from="1571915298035" duration="4579000" />
+      <workItem from="1571985097894" duration="4511000" />
+      <workItem from="1572140221992" duration="2686000" />
+      <workItem from="1572164653325" duration="1944000" />
+      <workItem from="1572222356094" duration="4055000" />
+      <workItem from="1572260764401" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+</project>

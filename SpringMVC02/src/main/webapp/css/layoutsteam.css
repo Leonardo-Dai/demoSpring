@@ -1,0 +1,350 @@
+@CHARSET "UTF-8";
+
+.i1 {
+	height: 42px;
+	padding: 0px;
+	margin: -8px;
+}
+#keyword-input{
+	width:315px;
+	background-color: #1b2838;
+	border:0px;
+	color: white;
+}
+#keyword-input1{
+	background-color: #171a21;
+	border:none;
+	width:185px;
+	height:30px;
+	margin-left: 8px;
+	margin-top: 10px;
+}
+
+.container-fluid{
+	background-color: #1b2838;
+}
+h2{
+	color: white;
+}
+.pagesubheader{
+	color: white;
+}
+#l1{
+	background-color: #171a21;
+}
+.list-group-item.list-group-item-heading{
+	background: rgba(0,0,0,0.2);
+	border:0px;
+}
+.list-group-item.list-group-item-heading:hover{
+	background-color: #171a21;
+}
+#s1{
+	color: white;
+	font-size: 12px;
+}
+#s2{
+	color: white;
+	font-size: 12px;
+}
+.col.search_released.responsive_secondrow{
+	color: #4c6c8c; 
+	font-size: 12px;
+}
+.float-right{
+	color: #4c6c8c;
+}
+#d1{
+	color: white;
+	background-color: #333333;
+	
+}
+.list-group-item{
+	background-color: #1b2838;
+	
+}
+.list-group-item:hover{
+	background-color: #333333;
+	
+}
+.col-md-10{
+	color: white;
+}
+.b1{
+	color: white;
+}
+.fdf-footer-imgweizhi{
+	margin: 0px,0px,0px,0px;
+}
+/* 按钮 */
+.btn.btn-default.dropdown-toggle.float-right{
+	background-color: #1b2838;
+	border:0px;
+}
+.btn.btn-default.dropdown-toggle.float-right:hover{
+	
+	color: white;
+	background-color: #67c1f5;
+}
+.zlm{
+	background: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    color: #c7d5e0;
+    font-size: 12px;
+    border-redius:3px;
+}
+.btnv6_blue_hoverfade.btn_small{
+	background-color: #1b2838;
+	border:0px;
+}
+.btnv6_blue_hoverfade.btn_small:hover{
+	color: white;
+	background-color: #67c1f5;
+}
+#zlmd1{
+	background-color: #626366;
+	border:0px;
+	color: white;
+	text-align:left;
+	border:0px,solid,#333333;
+	
+}
+.list-group-item.zlma1{
+	background-color: #1b2838; 
+	border:0px;
+	color: #9fbbcb;
+	width:210px;
+	height:27px;
+	font-size:13px; 
+	margin-left: 3px;
+	
+	
+}
+/* .list-group-item.zlma2{
+	background-color: #626366;
+	border:0px;
+	color: #9fbbcb;
+	height:30px;
+	font-size:13px; 
+} */
+.list-group-item.zlma1:hover{
+	background-color: #626366;
+	color: #ffffff;
+}
+#a1{
+	margin-top: 0px;
+	
+}
+/* .zlm-panel-body{
+	background-color: #1b2838;
+	height:175px;
+	padding-top: -5px;
+	color: #9fbbcb;
+	border-color:rgba( 255, 255, 255, 0.1);
+} */
+.list-group{
+	margin-top: 1px;
+	
+}
+/* .zlm1-panel-body{
+	background-color: #1b2838;
+	height:142px;
+	padding-top: -5px;
+}
+
+.zlm2-panel-body{
+	background-color: #1b2838;
+	height:250px;
+}
+.zlm3-panel-body{
+	background-color: #1b2838;
+	height:170px;
+}
+.zlm4-panel-body{
+	background-color: #1b2838;
+	height:95px;
+}
+.zlm5-panel-body{
+	background-color: #1b2838;
+	height:33px;
+} */
+.zlm{
+	color: white;
+	background-color: #626366;
+	/* border:0px; */
+	/* color: #9fbbcb; */
+	height:30px;
+	font-size:13px; 
+	padding-top: 7px;
+	padding-left: 15px;
+}
+.jiaod1{
+	color: #3b6e8c;
+}
+.col-md-10{
+	color: #9fbbcb;
+}
+.panel.panel-default{
+	border: 1px solid rgba( 255, 255, 255, 0.1);
+}
+.yema1{
+	margin-left: 0px; 
+	color: white;
+}
+
+.block.block_header{
+	background: rgba( 255, 255, 255, 0.1);
+    padding: 4px 4px 4px 6px;
+    color: #c7d5e0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+   
+}
+
+.search_pagination_left{
+	float:left;
+	color: #3b6e8c;
+	font-size: 12px;
+}
+.search_pagination_right{
+	float:right;
+	font-size: 12px;
+}
+.zlm-btn.btn-default{
+	border-radius:4px;
+	color: #67c1f5;
+	border:0px; 
+	width:40px;
+	height:17px;
+	background-color: rgba( 103, 193, 245, 0.2 );
+}
+.zlm-btn.btn-default:hover{
+	background-color: #67c1f5;
+	color: white;
+}
+
+
+#yema1{
+	color: #c6d4df;
+}
+.zlm-panel.panel-primary{
+	background: rgba( 255, 255, 255, 0.1);
+	border-color:rgba( 255, 255, 255, 0.1);
+}
+.block_header1 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    color: #c7d5e0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    width: 220px;
+}
+.block_content1 {
+    border: 1px solid rgba( 255, 255, 255, 0.1);
+    width: 220px;
+    height:180px;
+}
+.block_header2 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    color: #c7d5e0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+	width: 220px;
+}
+.block_content2 {
+    border: 1px solid rgba( 255, 255, 255, 0.1);
+    width: 220px;
+    height:150px;
+}
+.block_header3 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    color: #c7d5e0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+	width:220px;
+}
+.block_content3 {
+    border: 1px solid rgba( 255, 255, 255, 0.1);
+    width: 220px;
+    height:250px;
+}
+.block_header4 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    color: #c7d5e0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+	width:220px;
+}
+.block_content4 {
+    border: 1px solid rgba( 255, 255, 255, 0.1);
+    width: 220px;
+    height:150px;
+}
+.block_header5 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    color: #c7d5e0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+	width: 220px;
+}
+.block_content5 {
+    border: 1px solid rgba( 255, 255, 255, 0.1);
+    width: 220px;
+    height:180px;
+}
+.block_header6 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    color: #c7d5e0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+	width: 220px;
+}
+.block_content6 {
+    border: 1px solid rgba( 255, 255, 255, 0.1);
+    width: 220px;
+    height:90px;
+}
+.block_header7 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    color: #c7d5e0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+	width: 220px;
+}
+.block_content7 {
+    border: 1px solid rgba( 255, 255, 255, 0.1);
+    width: 220px;
+    height:38px;
+}
+.list-group-item.zlma1:hovre{
+	color: white;
+}
+.col-md-10:hovre{
+	color: white;
+}
+#zlma1{
+	margin-bottom: 3px;
+}    
+#zlma2{
+	margin-top: 3px;
+}    

@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+/*利用css继承性，设定全局字体*/
+body {
+  font-family: "微软雅黑", "黑体", "文泉驿正黑";
+}
+/* 设置导航栏标题背景 */
+nav {
+	background-image: url("../images/th.jpg");
+}
+
+.row-1 {
+	/* 设置省略号 */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	/* 设置显示行数 */
+	-webkit-line-clamp: 1;
+	/* 超出范围不显示 */
+	overflow: hidden;
+}
+.row-4{
+	/* 设置省略号 */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	/* 设置显示行数 */
+	-webkit-line-clamp: 4;
+	/* 超出范围不显示 */
+	overflow: hidden;
+}
+.row-5{
+	/* 设置省略号 */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	/* 设置显示行数 */
+	-webkit-line-clamp: 5;
+	/* 超出范围不显示 */
+	overflow: hidden;
+}
+/* 让搜索框变短*/
+#keyword_input{
+	width: 180px;
+}
